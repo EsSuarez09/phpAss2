@@ -84,7 +84,6 @@ if(isset($message)){
                 <input type="file" required accept="image/png, image/jpeg, image/jpg" name="product_image" class="box">
                 <input type="submit" class="btn" name="add_product" value="add kitkat">
             </form> 
-
         </div>
     </div>
         <?php
@@ -115,8 +114,7 @@ if(isset($message)){
                     <td>$<?php echo $row['price']; ?></td>
                     <td>
                         <a href="admin_update.php?edit=<?php echo $row['id']; ?>" class="btn"> <i class="fas fa-edit"></i> edit </a>
-                        <a href="admin_page.php?delete=<?php echo $row['id']; ?>" class="btn"> <i class="fas fa-trash"></i> delete </a>
-                        
+                        <a href="admin_page.php?delete=<?php echo $row['id']; ?>" class="btn"> <i class="fas fa-trash"></i> delete </a>      
                 </tr>
 
                 <?php  };  ?>

@@ -130,16 +130,6 @@ html{
 
 
 
-
-
-
-
-
-
-
-
-
-
 @media (max-width:991px){
     html{
         font-size: 55%;
@@ -160,16 +150,11 @@ html{
 
 
 
-
 @media (max-width:450px){
     html{
         font-size: 50%;
     }
 }
-
-
-
-
 
 
 
@@ -317,11 +302,6 @@ body.loggedin {
 	padding: 5px;
 	margin: 0 0 10px 0;
 }
-
-
-
-
-
 
 
 

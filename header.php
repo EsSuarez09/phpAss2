@@ -8,9 +8,8 @@
     max-width: 100px; /* Adjust the width as needed */
 }
 </style>
-<nav class="navtop">
-    
-			<div>
+    <nav class="navtop">
+		<div>
             <div class="logo">
                 <img src="img/kitkatLogo.png" alt="Company Logo">
             </div>
